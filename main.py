@@ -43,7 +43,15 @@ print()
 
 if dificultad == 1:
     print("Has elegido la dificultad Fácil. Tendrás más pistas y acertijos más sencillos.")
-if dificultad == 2:
+    
+elif dificultad == 2:
     print("Has elegido la dificultad Normal. Los acertijos serán desafiantes pero manejables.")
-if dificultad == 3:
+    
+elif dificultad == 3:
     print("Has elegido la dificultad Difícil. Prepárate para acertijos complejos y menos pistas.")
+    
+else:
+    print("Opción inválida. Se seleccionará la dificultad Normal por defecto.")
+    dificultad = 2
+print()
+    
