@@ -145,6 +145,11 @@ while juego_activo == True:
     elif opcion == 4:
         print("Has decidido salir del juego. ¡Hasta la próxima!")
         juego_activo = False
-            
     
-    
+    else:
+        print("Opción inválida. Por favor, selecciona una opción válida.")
+        
+print()
+print("=" * 50)
+print("GRACIAS POR JUGAR!")
+print("=" * 50)
