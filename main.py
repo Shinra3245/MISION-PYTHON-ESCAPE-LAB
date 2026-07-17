@@ -55,3 +55,20 @@ else:
     dificultad = 2
 print()
     
+# -----------------
+# ETAPA 5
+# VARIABLES BOOLEANAS
+# -----------------
+
+juego_activo = True
+llave = False
+targeta = False
+codigo_descubierto = False
+
+
+#Estado inicial del juego
+print("El laboratiorio esta listo para que comiences tu aventura. Explora y encuentra la manera de escapar.")
+print()
+
+
+
