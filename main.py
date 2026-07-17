@@ -70,5 +70,13 @@ codigo_descubierto = False
 print("El laboratiorio esta listo para que comiences tu aventura. Explora y encuentra la manera de escapar.")
 print()
 
+# -----------------
+# ETAPA 6
+# LISTAS
+# -----------------
+inventario = [] #inventario vacio
+print("Tu inventario está vacío. A medida que explores, encontrarás objetos que te ayudarán a escapar.")
+print(inventario)
+
 
 
